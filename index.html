@@ -5,41 +5,41 @@
 <title>Hello World</title>
 <style type="text/css">
     
+    #header{
+        position: absolute;
+        text-align: center;
+        left: 70px;
+        top:150px;
+        font-weight:bold;
+    }
     h1{
+        　/* index about me */
     padding: 34px 0 14px 40px;
     color: darkorange;
         
     }
-    #paper{
-        position: fixed;
-        top:150px;
-        right:100px;
-        background: rgba(0%,10%,20%,0.6);
-        width:900px;height:auto;
-        font-size: 30px;
-        color: aqua;
-       
+    
+    #content{
+    color: black;
+    position: absolute;
+    right:200px;
+    top:80px;
         
-        
-        
+    
+    }
+    #content table{
+    border:2px black solid;　
+    
+   
         
     }
+    #content table tr{
+        background-color: aliceblue;
+    }
    #header{
-       position: relative;
-         left:400px;
-        top:-50px;
         color:red;
         font-size:30px;
 }
-    #content p{
-       
-        text-align:center;
-        color:
-    }
-    #content{
-        position: absolute;
-        left:65px;
-    }
     body{
        background-image: url(okay.jpg);
             background-repeat: no-repeat;
@@ -47,14 +47,16 @@
             background-position: center;
             background-size: cover;
         
+
     }
     #button{
         
         font-weight: bolder;
         color:skyblue;
         font-size: 30px;
+        
         margin: 0px;
-        position: fixed;
+        position: absolute;
         top:10px;
         right:40px;
         
@@ -101,7 +103,7 @@
     height: 40px;
     box-sizing: border-box;
     /* 設定footer絕對位置在底部 */
-    position: fixed;
+    position: absolute;
     
     /* 展開footer寬度 */
     width: 100%;
@@ -121,51 +123,137 @@
 
 </style>
     <script>
-    
-        
-        
     </script>
 </head>
 <body>
 <h1>Hello學程式很難，這個也是</h1>
    
     <div class="demo1">
-        <h1>我想變得透明</h1>
+        <h1> 關於我的一些事</h1>
     </div>  
     
         <div id="header">
-            
-            
+            <iframe  width="720" height="480" src="https://www.youtube.com/embed/dOK3Q00L7dI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+             <p style="font-size:20px;color:black">(實習內容介紹)</p>
         </div>
+   
+    
     
     
    <ul id="button">
     <li><a href="stock.html">選股日記</a></li>
-    <li><a href="index.html">大學專題</a></li>
-    <li><a href="me.html">關於我</a></li>
+     <li><a href="school.html">大學專題</a></li>
+    <li><a href="index.html">關於我</a></li>
  
 </ul>
 <div id="content">
-    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/r5ewXiKzFsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-        <p style="font-size:20px;color:red">(戒菸小幫手影片介紹)</p>
-        <img src="DM2.1.jpg"  title="宣傳文宣" width="500px" height="auto">
-     
-       <div style=" text-align:center;color:red;font-weight:bold;font-size:40px";>
-(宣傳文宣)
-</div>
-
+    履歷測試
+    <table table border="1" cellpadding="20" cellspacing="0" width="850">
+    <tr>　
+        　　<td rowspan="5"  align="center" bgcolor="gray" width="10px" ><img src="H103111101-1.jpg" width="150px" height="auto" ></td>
+        </tr>
         
-</div>
+        <tr>
+            <td  width="200px">中文姓名</td>
+        　<td colspan="4">潘政逸</td>
+        </tr>
+        
+        <tr>
+        
+        <td>
+        英文姓名
+            </td>
+            
+            <td colspan="4">PAN,ZHENG-YI</td>
+            
+        </tr>
+        
+        <tr>
+        <td>性別</td>
+            <td>男</td>
+            <td>出生日</td>
+            <td>85/7/15</td>
+            
+            
+       
+            
+        
+        
+        </tr>
+        <tr >
+            <td width="50" >戶籍地址</td>
+            <td width="750" >新北市新莊區五工一路72巷19號6樓</td>
+            <td width="150">手機</td>
+            <td>0966249030</td>
+        </tr>
+        <tr>
+                    
+           
+    </table>
+       <table border="1" cellpadding="20" cellspacing="0" width="850" >
 
-<div id="paper">
-<div style=" text-align:center;color:red;font-weight:bold;font-size:50px";>
-摘要
+       <tr align="center">
+       <td width="100" rowspan="2">
+          最高學歷
+           </td>
+           <td>學校名稱</td>
+           <td>就讀科系</td>
+           <td>修業期間</td>
+           <td>修業狀況</td>
+        </tr>
+        <tr align="center">
+         <td>亞東技術學院</td>
+          <td>資訊管理系</td>
+          <td>2014/09-2018-07</td>
+            <td>畢業</td>
+            
+           </tr>
+           <tr>
+           <td align="center" colspan="5"  >
+               工作經歷
+           </td>
+          <tr>
+           <td colspan="3" width="400" >
+           實習生 2018/1~2018/7 (六個月)<br>
+柏祐科技股份有限公司  電腦軟體服務業 1~30人 <br>
+軟體設計工程師 台北市中山區<br>
+工作內容<br>
+1.測試App產品<br> 
+2.MantisBT回報錯誤 提出修改UI UX意見<br>
+3.Mockplus 繪製介面<br>
+4.使用wordpress架設網站<br></td>
+           <td colspan="2" >
+               遊戲測試員 2019/9~2019/12(四個月)<br>
+新加坡商博特盈科技有限公司台灣分公司<br>  網際網路相關業 30~100人 <br>
+測試人員  台北市松山區<br>
+工作內容<br>
+1. 透過實際的遊戲操作進行文字相關測試<br>
+2. 依規定填寫測試報告，回報問題<br>
+3. 具PS4/Switch遊戲經驗者佳<br>
+4. 具日/英語能力佳<br>
+5. 須配合專案時程出勤<br>
+           </td>
+           </tr>
+           <tr>
+               <td align="center" >擅長工具</td>
+               <td colspan="4">
+                    Java<br>
+                    MySQL<br>
+                    Premiere<br>
+                    PhotoShop 證書:Adobe Certified Associate<br>
+                
+                    英文程度:中等 證書:CSEPT第一級 220/240分  
+               </td>
+           </tr>
+        
+    </table>
 </div>
-<p style="line-height:50px;margin:30px;">
-  現代科技發展，人們對於健康與環境的議題越來越重視，而抽菸不僅對於身體造成嚴重傷害，二手菸對於環境的影響可能更嚴重。而這些訊息隨著現代知識普及逐漸被大眾所熟知。學校開始在校內宣導反菸教育，醫院也設立了戒菸門診，在政府的禁菸政策的宣導之下，台灣吸菸人口的比例逐漸下降。但是對於已經有菸癮的人而言，要戒掉菸癮卻非常困難，一個成功的戒菸者平均要戒菸5~8次，可見戒菸並非一蹴可及。而在這過程中除了醫師的診斷之外，家人和親友的支持也是非常重要的。<br>
-   有鑑於此家醫科的醫師找我們合作開發出一套幫助使用者戒菸的手機程式。我們提供一個讓戒菸者、醫師和親友可以互動的一個平台。希望透過三者之間的連結來提升戒菸者戒菸的意願。下表為市面上的戒菸軟體與本系統之比較表。
-    </p>
+<div id="footer">
+<span>
+    
+   <br>  
+</span>
 </div>
 
 
